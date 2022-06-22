@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100&family=Roboto+Slab:wght@300&display=swap");
+
+.flex-all-centre{
+    display: flex;
+justify-content: center;
+align-items: center;
+    
+}
+.btn{
+    height: 24px;
+    width: 60px;
+    background: rgb(253, 186, 2);
+    margin-left: 10px;
+  font-family: "Roboto Flex", sans-serif;
+
+}
+.my-1{
+    margin-top: 50px;
+}
+.my-2{
+    margin: 5px 0;
+}
+.text-centre{
+    text-align: center;
+}

@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100&family=Roboto+Slab:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+header {
+  background: black;
+  font-family: "Roboto Flex", sans-serif;
+}
+nav ul {
+  height: 58px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+nav {
+  display: flex;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 100px;
+  padding: 0 20px;
+}
+nav ul li {
+  list-style: none;
+  padding: 0 16px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+nav ul li a:hover {
+    color: rgb(253, 195, 6);
+    /* text-decoration: none; */
+    font-weight: bolder;
+  }
+.searchBar{
+    display: flex;
+    align-items: center;
+    /* width: 90vh; */
+}
+.searchBar input{
+    width: 800px;
+    height: 20px;
+    /* margin-top: 12px; */
+    margin-left: 20px;
+    border: 2px solid rgb(255, 187, 0);
+  font-family: "Roboto Flex", sans-serif;
+
+}
+.flag{
+    display: flex;
+    align-items: center;
+}
+.flag img{
+    width: 30px;
+    height: 20px;
+    padding: 0 23px;
+}
+.signIn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 23px;
+}
+.signIn a{
+    
+    text-decoration: none;
+    color: white;
+
+}
+.signIn a:hover{
+    color: rgb(253, 195, 6);
+    font-weight: bold;
+    
+}
+.cart{
+    display: flex;
+    align-items: center;
+}
+.cart a{
+    text-decoration: none;
+    color: white;
+}
+.cart a:hover{
+    color: rgb(253, 195, 6);
+    font-weight: bold;
+}
+.slider{
+    margin: auto;
+    /* height: ; */
+    width: 80vw;
+    margin: 12px 300px;
+}
+.card{
+    /* background: #000; */
+    max-width: 91vw;
+    margin: 37px auto;
+    border: 2px solid white;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    overflow: scroll;
+  /* border: 2px solid black; */
+
+}
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    margin: 0 15px;
+}
+
+.card h2{
+  /* font-family: "Roboto Flex", sans-serif; */
+  /* border: 2px solid black; */
+font-weight: bold;
+}
+.container {
+  min-height: 100vh;
+}
+footer {
+  height: 12vh;
+  background-color: black;
+  color: white;
+  font-family: "Roboto Flex", sans-serif;
+}
